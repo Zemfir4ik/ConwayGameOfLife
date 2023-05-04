@@ -46,8 +46,8 @@ int main()
 
     if (highlight == 1)
     {
+        clear();
         start_color();
-        
         assume_default_colors(0,7);
         
         Game a(stdscr);
